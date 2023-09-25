@@ -1,0 +1,39 @@
+@import "tokens.css";
+
+.flex-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--size-200);
+}
+
+.flex-group[data-flex-direction="column"] {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.flex-group[data-justify-content="start"] {
+  justify-content: start;
+}
+
+.small-spacer {
+  margin-top: var(--size-100);
+}
+
+.medium-spacer {
+  margin-top: var(--size-300);
+}
+
+.large-spacer {
+  margin-top: var(--size-700);
+}
+
+p[data-max-width] {
+  max-width: 32ch;
+}
+
+[data-width="fit-content"] {
+  width: fit-content;
+  line-height: 1.3;
+}

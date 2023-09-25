@@ -1,0 +1,52 @@
+:root {
+  --clr-primary-hsl-400: 333, 80%, 67%;
+  --clr-primary-hsl-800: 300, 43%, 22%;
+
+  --clr-secondary-hsl-100: 0, 0%, 100%;
+  --clr-secondary-hsl-200: 300, 24%, 96%;
+  --clr-secondary-hsl-500: 303, 10%, 53%;
+
+  --clr-primary-400: hsl(var(--clr-primary-hsl-400));
+  --clr-primary-800: hsl(var(--clr-primary-hsl-800));
+
+  --clr-secondary-100: hsl(var(--clr-secondary-hsl-100));
+  --clr-secondary-200: hsl(var(--clr-secondary-hsl-200));
+  --clr-secondary-500: hsl(var(--clr-secondary-hsl-500));
+
+  --ff-primary: "League Spartan", sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-100: 0.9375rem;
+  --fs-200: 1rem;
+  --fs-250: 1.1rem;
+  --fs-300: 2.5rem;
+
+  --size-050: 0.3rem;
+  --size-100: 0.5rem;
+  --size-200: 0.75rem;
+  --size-300: 1rem;
+  --size-400: 1.5rem;
+  --size-500: 2rem;
+  --size-600: 2.5rem;
+  --size-700: 3rem;
+
+  --clr-bg-body: var(--clr-secondary-100);
+  --clr-body: var(--clr-secondary-500);
+  --clr-bg-card: var(--clr-primary-800);
+  --clr-heading-1: var(--clr-primary-800);
+  --clr-heading-2: var(--clr-primary-800);
+
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  --fw-body: var(--fw-regular);
+  --fw-heading-1: var(--fw-bold);
+  --fw-heading-2: var(--fw-bold);
+
+  --fs-body: var(--fs-250);
+  --fs-heading-1: var(--fs-300);
+  --fs-heading-2: var(--fs-250);
+}
