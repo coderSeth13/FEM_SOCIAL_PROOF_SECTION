@@ -7,7 +7,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 #### Project links
 
 - Solution URL: https://github.com/coderSeth13/FEM_SOCIAL_PROOF_SECTION.git
-- Live Site URL: 
+- Live Site URL: https://coderseth13.github.io/FEM_SOCIAL_PROOF_SECTION/
 
 #### Social links
 
