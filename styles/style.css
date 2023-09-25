@@ -76,7 +76,7 @@ main {
 [data-customer-status] {
   color: var(--clr-primary-400);
 }
-
+/* 
 .coderSeth {
   font-size: var(--size-300);
   text-align: center;
@@ -86,4 +86,4 @@ main {
 .coderSeth a {
   --cS-color: 228, 45%, 44%;
   color: hsl(var(--cS-color));
-}
+} */
